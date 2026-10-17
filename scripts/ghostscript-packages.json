@@ -1,0 +1,22 @@
+[
+  {
+    "name": "ghostscript_9.55.0~dfsg1-0ubuntu5_amd64.deb",
+    "sha256": "38957869cf597ba2dac8d032e25aa9635e23924284873311c7b5c54b7a3ef5cd",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/ghostscript/ghostscript_9.55.0~dfsg1-0ubuntu5_amd64.deb"
+  },
+  {
+    "name": "libgs9-common_9.55.0~dfsg1-0ubuntu5_all.deb",
+    "sha256": "f23852633c080f5ddabee79e086c477f8342900941af15d3ffb87d1f63a0a6ba",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/ghostscript/libgs9-common_9.55.0~dfsg1-0ubuntu5_all.deb"
+  },
+  {
+    "name": "libgs9_9.55.0~dfsg1-0ubuntu5_amd64.deb",
+    "sha256": "854680325de8403e60ffcdefc646ef9e3fef7a893f31413842bbd7c8b3780817",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/ghostscript/libgs9_9.55.0~dfsg1-0ubuntu5_amd64.deb"
+  },
+  {
+    "name": "libtiff5_4.3.0-6_amd64.deb",
+    "sha256": "7347dc8ed71a4a2eb53730bbadd232a14d340112f0350bba3d4d15e86ba51ce1",
+    "url": "https://archive.ubuntu.com/ubuntu/pool/main/t/tiff/libtiff5_4.3.0-6_amd64.deb"
+  }
+]

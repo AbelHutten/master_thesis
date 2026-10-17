@@ -1,0 +1,96 @@
+\documentclass[11pt]{article}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{chngpage}
+\usepackage{caption}
+\usepackage{geometry}
+\usepackage{float}
+\usepackage{hyperref}        %make table of contents clickable
+%\usepackage{xcolor}			%allows one to change the color of text
+\usepackage[dvipsnames]{xcolor} %adds extra colors
+\usepackage{makecell}        %used for multiline table entries
+
+\usepackage{algorithm}       %used for algorithms in the text
+\usepackage{algpseudocode}
+
+\usepackage{natbib}
+
+\usepackage[nottoc]{tocbibind} %shows bibliography in the ToC
+
+\geometry{left = 4cm} 		%left   margin
+\geometry{right = 4cm}		%right  margin
+\geometry{top = 2cm}		    %top    margin
+\geometry{bottom = 2cm}		%bottom margin
+\setlength{\parindent}{20pt}  %new paragraph indent
+%\pagenumbering{gobble}		%turn off page numbers
+
+\usepackage{graphicx}
+\usepackage{subcaption}
+\graphicspath{{Graphics/}} %path to folder containing figures
+\usepackage[justification=centering]{caption} %ceters the captions
+
+\title{Fabrication and Characterization of Proximity-Induced Superconducting Electromigrated Break-Junctions \\ 
+
+\vspace{1cm} 
+\small{by} \\ 
+\vspace{1cm} 
+\Large{Abel Hutten} \\ 
+\vspace{2cm} 
+\normalsize{} To obtain the degree of Master of Science from the \\ Delft University of Technology.
+\vspace{9cm} 
+
+\begin{flushleft}
+\hspace{1cm} Student number:   \hspace{0.2cm} 4593324\\
+\hspace{1cm} Project duration: \hspace{0.1cm} September 2022 - April 2023 \\
+\hspace{1cm} Supervisors: \hspace{0.95cm} Prof. Dr. H.S.J. van der Zant \\
+\hspace{4.35cm} D. Bouwmeester\\
+\hspace{1cm} Thesis Committee: Prof. Dr. H.S.J. van der Zant\\
+\hspace{4.35cm} Prof. Dr. M.N. Ali\\
+\hspace{4.35cm} Prof. Dr. Y.M. Blanter
+
+\end{flushleft}
+
+}
+
+
+\date{}
+
+
+
+
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+
+\newpage
+\input{Abstract}
+
+\tableofcontents
+\newpage
+
+\pagenumbering{arabic}
+\input{Introduction}
+
+\newpage
+\input{Theory}
+
+\newpage
+\input{Methods}
+
+\newpage
+\input{Results}
+
+\input{Discussion}
+
+\input{Conclusion}
+
+\input{WorkingBibliography}
+
+\input{Appendix}
+
+
+
+\end{document}
