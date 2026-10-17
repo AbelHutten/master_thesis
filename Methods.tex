@@ -14,57 +14,57 @@ In this process, one starts with the substrate on which the device will be fabri
          \centering
          \includegraphics[width=\textwidth]{EBL1.png}
          \caption{A cleaned substrate.\newline}
-         \label{a}
+         \label{subfig:EBL-a}
      \end{subfigure}
      \hfill
      \begin{subfigure}[b]{0.49\textwidth}
          \centering
          \includegraphics[width=\textwidth]{EBL2.png}
          \caption{Layers of PMMA and MMA are added onto the resist by spin-coating.}
-         \label{b}
+         \label{subfig:EBL-b}
      \end{subfigure}
      \hfill
      \begin{subfigure}[b]{0.49\textwidth}
          \centering
          \includegraphics[width=\textwidth]{EBL3.png}
          \caption{A portion of the resist is irradiated with an electron beam in a specified pattern.}
-         \label{c}
+         \label{subfig:EBL-c}
      \end{subfigure}
      \hfill
      \begin{subfigure}[b]{0.49\textwidth}
          \centering
          \includegraphics[width=\textwidth]{EBL4.png}
          \caption{The irradiated region is dissolved away. \newline}
-         \label{d}
+         \label{subfig:EBL-d}
      \end{subfigure}
      \hfill
      \begin{subfigure}[b]{0.49\textwidth}
          \centering
          \includegraphics[width=\textwidth]{EBL5.png}
          \caption{Material is evaporated onto the mask and substrate.}
-         \label{e}
+         \label{subfig:EBL-e}
      \end{subfigure}
      \hfill
      \begin{subfigure}[b]{0.49\textwidth}
          \centering
          \includegraphics[width=\textwidth]{EBL6.png}
          \caption{The mask is removed, leaving the patterned material on the substrate.}
-         \label{f}
+         \label{subfig:EBL-f}
      \end{subfigure}
         \caption{Electron Beam Lithography Process Diagram.}
         \label{fig:EBL}
         
 \end{figure}
 
-The cleaned substrate is covered by a layer of the resist methyl methacrylate (MMA),  which is dissolved in ethyl lactate at 8\% concentration, using a technique known as spin-coating. This technique allows for a very thin film of MMA to be deposited, with a high level of control on the final thickness. The MMA was spin coated at 2000 rpm for one minute and next baked for 5 minutes at 180 $^{\circ}$C to remove the solvent and fix the resist. This recipe creates an MMA layer of 340 nm thick. On top of this layer, 80 nanometers of poly methyl methacrylate (PMMA) with a molecular weight of 950K, dissolved in anisole at 2\% concentration, is deposited by spin coating for 60 seconds at 2000 rpm, which is also followed by a 5-minute bake at 180 $^{\circ}$C, which creates a layer of PMMA of 80 nm thick (Figure \ref{b}). 
+The cleaned substrate is covered by a layer of the resist methyl methacrylate (MMA),  which is dissolved in ethyl lactate at 8\% concentration, using a technique known as spin-coating. This technique allows for a very thin film of MMA to be deposited, with a high level of control on the final thickness. The MMA was spin coated at 2000 rpm for one minute and next baked for 5 minutes at 180 $^{\circ}$C to remove the solvent and fix the resist. This recipe creates an MMA layer of 340 nm thick. On top of this layer, 80 nanometers of poly methyl methacrylate (PMMA) with a molecular weight of 950K, dissolved in anisole at 2\% concentration, is deposited by spin coating for 60 seconds at 2000 rpm, which is also followed by a 5-minute bake at 180 $^{\circ}$C, which creates a layer of PMMA of 80 nm thick (Figure \ref{subfig:EBL-b}).
 
-PMMA and MMA are both sensitive to electron bombardment. When these resists are irradiated with electrons, polymeric chains are broken and as a result the solubility is increased (Figure \ref{c}, color change reflects change in solubility). An electron beam lithography machine is able to expose the resist in a specified pattern with a resolution of close to 1 nm. Due to the additional exposure of the resist by indirect, scattered electrons, the maximal resolution is reduced to the order of 10 nanometers. Due to the lower molecular weight of the MMA compared to the PMMA, the MMA needs less exposure to become soluble. This causes a larger region of MMA to be effectively irradiated.
+PMMA and MMA are both sensitive to electron bombardment. When these resists are irradiated with electrons, polymeric chains are broken and as a result the solubility is increased (Figure \ref{subfig:EBL-c}, color change reflects change in solubility). An electron beam lithography machine is able to expose the resist in a specified pattern with a resolution of close to 1 nm. Due to the additional exposure of the resist by indirect, scattered electrons, the maximal resolution is reduced to the order of 10 nanometers. Due to the lower molecular weight of the MMA compared to the PMMA, the MMA needs less exposure to become soluble. This causes a larger region of MMA to be effectively irradiated.
 
-After exposure with the electron beam, the sample is developed by submersing it in a 3 to 1 mixture of isopropyl alcohol (IPA) to methyl isobutyl ketone (MIBK) for 90 seconds. This causes the exposed area of the resist to dissolve and be removed, while the less soluble unexposed resist remains (Figure \ref{d}). Since a larger area of PMMA was effectively exposed compared to the MMA, there is a region where the PMMA gets removed while the apposed MMA remains. This region of the PMMA is called the undercut, while the region of MMA that hangs above the undercut is called an overhang. The sample is next transferred to pure IPA to stop the development process. After development, the sample is exposed to oxygen plasma for 20 seconds. This is a cleaning step that removes unwanted residues that may have been left after the development. 
+After exposure with the electron beam, the sample is developed by submersing it in a 3 to 1 mixture of isopropyl alcohol (IPA) to methyl isobutyl ketone (MIBK) for 90 seconds. This causes the exposed area of the resist to dissolve and be removed, while the less soluble unexposed resist remains (Figure \ref{subfig:EBL-d}). Since a larger area of PMMA was effectively exposed compared to the MMA, there is a region where the PMMA gets removed while the apposed MMA remains. This region of the PMMA is called the undercut, while the region of MMA that hangs above the undercut is called an overhang. The sample is next transferred to pure IPA to stop the development process. After development, the sample is exposed to oxygen plasma for 20 seconds. This is a cleaning step that removes unwanted residues that may have been left after the development.
 
-Next, the mask that was created in the preceding steps is ready for metallization. It is placed in an evaporation chamber, and metal is deposited using electron beam evaporation. This results in a thin layer of metal being deposited on the sample, as shown in figure \ref{e}. Many metals do not stick to the SiO$_2$ layer reliably, and as a result they may come off during further fabrication steps. To remedy this, often a different layer of metal is deposited on the SiO$_2$ first. Such a layer is known as a sticking layer, and all devices discussed in this thesis have been made using a 5 nm titanium sticking layer. 
+Next, the mask that was created in the preceding steps is ready for metallization. It is placed in an evaporation chamber, and metal is deposited using electron beam evaporation. This results in a thin layer of metal being deposited on the sample, as shown in figure \ref{subfig:EBL-e}. Many metals do not stick to the SiO$_2$ layer reliably, and as a result they may come off during further fabrication steps. To remedy this, often a different layer of metal is deposited on the SiO$_2$ first. Such a layer is known as a sticking layer, and all devices discussed in this thesis have been made using a 5 nm titanium sticking layer.
 
-Finally, the mask and the portion of the metals that was deposited on top of the mask is removed, in a process known as lift-off. This is done by submersing the sample in N-Methyl-2-pyrrolidone (NMP), heated to 80 $^{\circ}$C for multiple hours. This dissolves the resist and thereby also removes the metal that was supported by that resist, as shown schematically in figure \ref{f}. 
+Finally, the mask and the portion of the metals that was deposited on top of the mask is removed, in a process known as lift-off. This is done by submersing the sample in N-Methyl-2-pyrrolidone (NMP), heated to 80 $^{\circ}$C for multiple hours. This dissolves the resist and thereby also removes the metal that was supported by that resist, as shown schematically in figure \ref{subfig:EBL-f}.
 
 \subsubsection{Double Angle Evaporation}
 In the preceding subsection an outline of the EBL process was described. If one wants to design a device with multiple layers of metal, where each metal is deposited in a different shape, the entire EBL process can be repeated. The resist is applied on top of the substrate and the already deposited metal, and irradiated according to a new pattern. After development this will form a new mask such that a new layer of metal can be evaporated onto the substrate in a different pattern. A notable difficulty with this method of producing different patterned layers is that the patterns of the different layers need to be properly aligned. This alignment happens with finite accuracy, and therefore can introduce imperfections in the device geometry. Another drawback is that it is more arduous to go through all the EBL steps a second time than it would be to reuse the same mask for multiple layers. 
@@ -75,14 +75,14 @@ In the preceding subsection an outline of the EBL process was described. If one 
          \centering
          \includegraphics[width=\textwidth]{DoubleAngle1.png}
          \caption{The first layer of material is evaporated onto the mask and substrate. \newline}
-         \label{e}
+         \label{subfig:evaporation-first}
      \end{subfigure}
      \hfill
      \begin{subfigure}[b]{0.49\textwidth}
          \centering
          \includegraphics[width=\textwidth]{DoubleAngle2.png}
          \caption{The second layer is evaporated at a different angle, causing a translation with respect to the first layer.}
-         \label{f}
+         \label{subfig:evaporation-second}
      \end{subfigure}
         \caption{Double angle evaporation.}
         \label{fig:DoubleAngle}
@@ -115,17 +115,17 @@ Since the Thouless energy is proportional to the electronic diffusion coefficien
          \centering
          \includegraphics[width=\textwidth]{restriction_tight.png}
          \caption{A sharp constriction, with good gap localization but poor diffusion.}
-         \label{e}
+         \label{subfig:constriction-sharp}
      \end{subfigure}
      \hfill
      \begin{subfigure}[b]{0.49\textwidth}
          \centering
          \includegraphics[width=\textwidth]{restriction_loose.png}
          \caption{A blunt constriction, with good diffusion but poor gap localization.}
-         \label{f}
+         \label{subfig:constriction-blunt}
      \end{subfigure}
         \caption{A comparison of restriction geometries.}
-        \label{fig:DoubleAngle}
+        \label{fig:ConstrictionGeometries}
         
 \end{figure}
 
